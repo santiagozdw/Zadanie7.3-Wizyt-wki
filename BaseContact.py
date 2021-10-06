@@ -10,8 +10,8 @@ class BaseContact:
     
     @property
     def label_length(self):
-        return len(f"{self.name} {self.surname}".replace(' ', ''))
-        # return len(f"{self.name} {self.surname}")
+        #return len(f"{self.name} {self.surname}".replace(' ', ''))
+        return len(f"{self.name} {self.surname}")
 
     def contact(self):
         print(f"Wybieram numer +48 {self.phone} i dzwonię do {self.name} {self.surname}")
